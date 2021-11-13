@@ -11,11 +11,17 @@ div .image {
 
 .h1 {
     position: relative;
-    right: -12px;
-    bottom: 72px;
+    right: -6px;
+    bottom: 95px;
 }
 
 a {
     color: black;
     text-decoration: underline;
+}
+@media screen and(max-width:700px) {
+    .test{
+        flex-direction: column;
+    }
+    
 }
